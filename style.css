@@ -53,70 +53,7 @@ body {
 }
 
 /* ------------------------------
-   HERO SECTION (Home Page)
------------------------------- */
-.hero {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 50px;
-}
-
-.hero-text h1 {
-    font-size: 40px;
-    margin-bottom: 10px;
-}
-
-.hero-text p {
-    font-size: 18px;
-    margin-bottom: 20px;
-}
-
-.btn {
-    display: inline-block;
-    padding: 10px 20px;
-    background: #00aaff;
-    color: white;
-    text-decoration: none;
-    border-radius: 6px;
-}
-
-.btn:hover {
-    background: #0088cc;
-}
-
-.hero-card {
-    background: white;
-    padding: 20px 30px;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
-    text-align: center;
-}
-
-.hero-card h2 {
-    font-size: 32px;
-    margin-top: 5px;
-}
-
-/* ------------------------------
-   GRID CARDS (Home Page)
------------------------------- */
-.grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
-}
-
-.card {
-    background: white;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
-    text-align: center;
-}
-
-/* ------------------------------
-   GALLERY GRID (Fixed)
+   GALLERY GRID
 ------------------------------ */
 .gallery-grid {
     margin-top: 30px;
@@ -127,8 +64,8 @@ body {
 
 .gallery-grid img {
     width: 100%;
-    height: auto;        /* show full image */
-    object-fit: contain; /* no cropping */
+    height: auto;
+    object-fit: contain;
     border-radius: 10px;
     background: #ddd;
     box-shadow: 0 4px 10px rgba(0,0,0,0.15);
